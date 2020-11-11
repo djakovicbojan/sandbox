@@ -1,0 +1,2 @@
+@seniorities
+  Feature: Create seniorities

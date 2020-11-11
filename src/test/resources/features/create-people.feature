@@ -1,0 +1,2 @@
+@people
+  Feature: Create people
