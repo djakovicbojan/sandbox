@@ -9,7 +9,12 @@ import org.junit.runner.RunWith;
         glue = {"com.htec.sandbox"},
         features = "src/test/resources/features",
         tags = "@people",
-        plugin = {"pretty", "html:target/cucumber"}
+        plugin = {"progress",
+                "json:target/cucumber-report/cucumber.json",
+                "html:target/cucumber-report/cucumber.html",
+                "junit:target/cucumber-reports/cucumber.xml"},
+        stepNotifications = true,
+        strict = true
         )
 public class AllTestsRunner {
 }
