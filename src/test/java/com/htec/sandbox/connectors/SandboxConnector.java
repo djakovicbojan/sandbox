@@ -4,12 +4,7 @@ import com.google.gson.Gson;
 import com.htec.sandbox.models.UseCasesModel;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import net.serenitybdd.core.Serenity;
 import net.serenitybdd.rest.SerenityRest;
-
-import java.lang.reflect.Array;
-
-import static com.htec.sandbox.utils.SharedStateConstants.LOGIN_TOKEN;
 
 public class SandboxConnector {
 

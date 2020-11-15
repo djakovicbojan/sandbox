@@ -1,20 +1,14 @@
 package com.htec.sandbox.steps;
 
-import com.htec.sandbox.connectors.SandboxConnector;
 import com.htec.sandbox.models.UseCasesModel;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.core.Serenity;
-import net.thucydides.core.annotations.Steps;
 
-import javax.xml.ws.Response;
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.ResourceBundle;
 
-import static com.htec.sandbox.utils.SharedStateConstants.*;
+import static com.htec.sandbox.utils.SharedStateConstants.USE_CASE;
 
 public class UseCasesSteps extends BaseSteps {
 
