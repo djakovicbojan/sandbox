@@ -2,12 +2,15 @@ package com.htec.sandbox.steps;
 
 import com.google.gson.Gson;
 import com.htec.sandbox.connectors.SandboxConnector;
+import com.htec.sandbox.core.ui.Driver;
 import com.htec.sandbox.models.UseCasesModel;
 import io.restassured.response.Response;
 import net.serenitybdd.core.Serenity;
 import net.thucydides.core.annotations.Steps;
 import org.jeasy.random.EasyRandom;
 import org.jeasy.random.EasyRandomParameters;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.Random;
 
@@ -26,6 +29,11 @@ public abstract class BaseSteps {
                             .stringLengthRange(5, 15)
             );
 
+
+
+    public void setup() {
+        Driver.getInstance().setDriver();
+    }
 
     public void loginAndGetToken() {
         sandboxConnector.login();
@@ -64,4 +72,5 @@ public abstract class BaseSteps {
 
 
     }
+
 }

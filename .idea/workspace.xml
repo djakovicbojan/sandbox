@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc399916-d972-4a7f-b485-09a628222590" name="Default Changelist" comment="Optimize imports and deleted comments">
+      <change afterPath="$PROJECT_DIR$/serenity.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/UseCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/utils/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/mac/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/windows/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/runners/AllTestsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/runners/AllTestsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-API.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-API.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-UI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-UI.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k6PkqLCxzIqmojx9F8cMvmxq1K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../serenityguideline-master" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.htec.sandbox.runners" />
+      <recent name="com.htec.sandbox.connectors" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\13umble13ee\IdeaProjects\sandbox\src\test\resources\webdriver\mac\" />
+      <recent name="C:\Users\13umble13ee\IdeaProjects\sandbox\src\test\resources\webdriver\mac\windows" />
+      <recent name="C:\Users\13umble13ee\IdeaProjects\sandbox\src\test\resources\features\use-cases" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\13umble13ee\IdeaProjects\sandbox\src\test\resources\webdriver\" />
+      <recent name="C:\Users\13umble13ee\IdeaProjects\sandbox\src\test\resources\features\" />
+      <recent name="C:\Users\13umble13ee\IdeaProjects\sandbox\src\test\resources\features\use-cases" />
+      <recent name="C:\Users\13umble13ee\IdeaProjects\sandbox\bin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Create new use cases and after that edit them with length of the previous one UI">
+    <configuration name="Feature: create-and-edit-use-case-API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-API.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.htec.sandbox.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="sandbox" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: create-and-edit-use-case-API" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: create-and-edit-use-case-UI" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-UI.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.htec.sandbox.core.ui.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="sandbox" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: create-and-edit-use-case-UI" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Create new use cases and after that edit them with length of the previous one API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-API.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.htec.sandbox.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="sandbox" />
+      <option name="NAME_FILTER" value="^Create new use cases and after that edit them with length of the previous one API$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Create new use cases and after that edit them with length of the previous one API$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create new use cases and after that edit them with length of the previous one API" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Create new use cases and after that edit them with length of the previous one UI" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-UI.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.htec.sandbox.core.ui.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="sandbox" />
+      <option name="NAME_FILTER" value="^Create new use cases and after that edit them with length of the previous one UI$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Create new use cases and after that edit them with length of the previous one UI$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create new use cases and after that edit them with length of the previous one UI" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllTestsRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sandbox" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htec.sandbox.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.htec.sandbox.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.htec.sandbox.runners.AllTestsRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Create new use cases and after that edit them with length of the previous one UI" />
+      <item itemvalue="Cucumber Java.Feature: create-and-edit-use-case-UI" />
+      <item itemvalue="Cucumber Java.Scenario: Create new use cases and after that edit them with length of the previous one API" />
+      <item itemvalue="JUnit.AllTestsRunner" />
+      <item itemvalue="Cucumber Java.Feature: create-and-edit-use-case-API" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Create new use cases and after that edit them with length of the previous one UI" />
+        <item itemvalue="Cucumber Java.Feature: create-and-edit-use-case-API" />
+        <item itemvalue="Cucumber Java.Scenario: Create new use cases and after that edit them with length of the previous one API" />
+        <item itemvalue="JUnit.AllTestsRunner" />
+        <item itemvalue="Cucumber Java.Feature: create-and-edit-use-case-UI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc399916-d972-4a7f-b485-09a628222590" name="Default Changelist" comment="" />
+      <created>1605018214846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605018214846</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Set up">
+      <created>1605114752875</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605114752875</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created one step with connector">
+      <created>1605131849108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605131849108</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added gitignore target folder">
+      <created>1605131953259</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605131953259</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added model and Base steps">
+      <created>1605211575458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605211575458</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added model and Base steps">
+      <created>1605211602426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605211602426</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finished API test">
+      <created>1605450065520</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605450065520</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finished API test">
+      <created>1605455775603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605455775603</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Optimize imports and deleted comments">
+      <created>1605455949786</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605455949786</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Set up" />
+    <MESSAGE value="Created one step with connector" />
+    <MESSAGE value="Added gitignore target folder" />
+    <MESSAGE value="Added model and Base steps" />
+    <MESSAGE value="Finished API test" />
+    <MESSAGE value="Optimize imports and deleted comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimize imports and deleted comments" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="355" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605470555306">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="734" y="355" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605470555306" />
+    <state x="879" y="1012" width="452" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605021078815">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="879" y="1012" width="452" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1605021078815" />
+    <state x="356" y="258" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605459942009">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="356" y="258" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605459942009" />
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605473006824">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605473006824" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1605469619584">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1605469619584" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1605473404418">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605473404418" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1605473404418">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605473404418" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1605473404418">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605473404418" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1605473404418">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605473404418" />
+    <state width="2517" height="488" key="GridCell.Tab.1.bottom" timestamp="1605470561543">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="488" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605470561543" />
+    <state width="2517" height="488" key="GridCell.Tab.1.center" timestamp="1605470561542">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="488" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605470561542" />
+    <state width="2517" height="488" key="GridCell.Tab.1.left" timestamp="1605470561542">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="488" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605470561542" />
+    <state width="2517" height="488" key="GridCell.Tab.1.right" timestamp="1605470561542">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="488" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605470561542" />
+    <state x="1620" y="710" key="Maven.ArtifactSearchDialog" timestamp="1605021658476">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1620" y="710" key="Maven.ArtifactSearchDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605021658476" />
+    <state x="666" y="492" key="SettingsEditor" timestamp="1605470515753">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="666" y="492" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605470515753" />
+    <state x="495" y="387" key="Vcs.Push.Dialog.v2" timestamp="1605455962142">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="495" y="387" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605455962142" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605450101904">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605450101904" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1605121104035">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605121104035" />
+    <state x="1502" y="433" width="585" height="534" key="find.popup" timestamp="1605468145744">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1502" y="433" width="585" height="534" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605468145744" />
+    <state x="704" y="560" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605114687312">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="704" y="560" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605114687312" />
+    <state x="662" y="361" key="new project wizard" timestamp="1605119352665">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="662" y="361" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1605119352665" />
+    <state x="383" y="625" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1605127600272">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="383" y="625" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605127600272" />
+  </component>
+</project>
