@@ -8,13 +8,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         glue = {"com.htec.sandbox"},
         features = "src/test/resources/features",
-        tags = "@people",
+        tags = "@createUseCase",
         plugin = {"progress",
                 "json:target/cucumber-report/cucumber.json",
                 "html:target/cucumber-report/cucumber.html",
-                "junit:target/cucumber-reports/cucumber.xml"},
-        stepNotifications = true,
-        strict = true
+                "junit:target/cucumber-reports/cucumber.xml"}
         )
 public class AllTestsRunner {
 }

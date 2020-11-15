@@ -1,5 +1,6 @@
 package com.htec.sandbox.connectors;
 
+import com.google.gson.Gson;
 import com.htec.sandbox.models.UseCasesModel;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -31,16 +32,19 @@ public class SandboxConnector {
 
     }
 
-    public Response useCases(String token) {
+    public int listUseCases(String token) {
         Response response = SerenityRest
-                .with().log().all()
+                .with()
                 .contentType(ContentType.JSON)
                 .header("authorization", "Bearer " + token)
                 .baseUri(baseUrl)
                 .get("/api/usecases/all");
 
-        response.then().statusCode(204);
-        return response;
+        response.then().statusCode(200);
+
+        UseCasesModel[] id = new Gson().fromJson(response.body().asString(), UseCasesModel[].class);
+
+        return id[0].getUsecase_id();
     }
 
     public Response createUseCase(String token, UseCasesModel body) {
@@ -51,6 +55,31 @@ public class SandboxConnector {
                 .body(body)
                 .baseUri(baseUrl)
                 .post("/api/usecases/usecase").prettyPeek();
+
+        response.then().statusCode(200);
+        return response;
+    }
+
+    public Response useCase(String token, int useCase) {
+        Response response = SerenityRest
+                .with().log().all()
+                .contentType(ContentType.JSON)
+                .header("authorization", "Bearer " + token)
+                .baseUri(baseUrl)
+                .get("/api/usecases/" + useCase).prettyPeek();
+
+        response.then().statusCode(200);
+        return response;
+    }
+
+    public Response editUseCase(UseCasesModel body, String token, int useCase) {
+        Response response = SerenityRest
+                .with().log().all()
+                .contentType(ContentType.JSON)
+                .header("authorization", "Bearer " + token)
+                .baseUri(baseUrl)
+                .body(body)
+                .put("/api/usecases/usecase/" + useCase).prettyPeek();
 
         response.then().statusCode(200);
         return response;

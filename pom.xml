@@ -3,34 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <properties>
-
-    <serenity.version>1.9.45</serenity.version>
-    <cucumber.version>4.8.0</cucumber.version>
-    <serenity.maven.version>2.0.91</serenity.maven.version>
-
-    </properties>
-
-    <groupId>com.qa.sandbox</groupId>
-    <artifactId>sandbox</artifactId>
-    <version>1.0</version>
-
-    <!--SERENITY DEPENDENCIES-->
     <build>
         <plugins>
-            <plugin>
-                <groupId>net.serenity-bdd.maven.plugins</groupId>
-                <artifactId>serenity-maven-plugin</artifactId>
-                <version>1.9.43</version>
-                <dependencies>
-                    <dependency>
-                        <groupId>net.serenity-bdd</groupId>
-                        <artifactId>serenity-core</artifactId>
-                        <version>${serenity.version}</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -42,7 +16,29 @@
         </plugins>
     </build>
 
+
+    <properties>
+
+    <serenity.version>1.9.43</serenity.version>
+    <cucumber.version>4.8.0</cucumber.version>
+    <serenity.maven.version>1.9.45</serenity.maven.version>
+
+    </properties>
+
+    <groupId>com.qa.sandbox</groupId>
+    <artifactId>sandbox</artifactId>
+    <version>1.0</version>
+
+    <!--SERENITY DEPENDENCIES-->
+
     <dependencies>
+
+
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+        </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>
@@ -66,19 +62,14 @@
         </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-reports</artifactId>
-            <version>2.0.91</version>
-        </dependency>
-        <dependency>
-            <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-screenplay</artifactId>
-            <version>${serenity.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-rest-assured</artifactId>
             <version>${serenity.version}</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>slf4j-simple</artifactId>-->
+<!--            <version>1.7.25</version>-->
+<!--        </dependency>-->
         <!--CUCUMBER DEPENDENCIES-->
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -111,6 +102,24 @@
             <artifactId>lombok</artifactId>
             <version>1.18.16</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jeasy</groupId>
+            <artifactId>easy-random-core</artifactId>
+            <version>4.0.0</version>
         </dependency>
     </dependencies>
 
