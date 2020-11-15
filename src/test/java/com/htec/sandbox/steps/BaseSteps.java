@@ -42,9 +42,10 @@ public abstract class BaseSteps {
     Serenity.setSessionVariable(RESPONSE_BODY).to(model);
     }
 
-    public void getLatestUseCase() {
-        Serenity.setSessionVariable(USE_CASE).to(
-                sandboxConnector.listUseCases(Serenity.sessionVariableCalled(LOGIN_TOKEN)));
+    public void getLatestUseCase(int list) {
+
+            Serenity.setSessionVariable(USE_CASE).to(
+                    sandboxConnector.listUseCases(Serenity.sessionVariableCalled(LOGIN_TOKEN), list));
     }
 
     public UseCasesModel navigateToUseCase(int useCase) {
@@ -56,12 +57,11 @@ public abstract class BaseSteps {
         return model;
     }
 
-    public UseCasesModel editUseCase(UseCasesModel body) {
-        Response response = sandboxConnector.editUseCase(body, Serenity.sessionVariableCalled(LOGIN_TOKEN),
-                Serenity.sessionVariableCalled(USE_CASE));
+    public void editUseCase(UseCasesModel body) {
 
-        UseCasesModel model = new Gson().fromJson(response.body().asString(), UseCasesModel.class);
+            sandboxConnector.editUseCase(body, Serenity.sessionVariableCalled(LOGIN_TOKEN),
+                    Serenity.sessionVariableCalled(USE_CASE));
 
-        return model;
+
     }
 }

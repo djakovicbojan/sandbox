@@ -41,31 +41,26 @@ public class UseCasesSteps extends BaseSteps {
 
     }
 
-    @When("I navigate to the created use case")
-    public void iNavigateToTestCase() {
+    @Then("I edit {int} test case with length value")
+    public void iEditFirstTestCaseWithLengthValue(int useCasesNumber) {
 
-        getLatestUseCase();
+        for (int i = 0; i < useCasesNumber; i++) {
 
-        UseCasesModel lastTestCase = navigateToUseCase(Serenity.sessionVariableCalled(USE_CASE));
+            getLatestUseCase(i);
+            UseCasesModel lastTestCase = navigateToUseCase(Serenity.sessionVariableCalled(USE_CASE));
 
-        Serenity.setSessionVariable(PREVIOUS_USE_CASE).to(lastTestCase);
 
-    }
+            int titleLength = lastTestCase.getTitle().length();
+            int descriptionLength = lastTestCase.getTitle().length();
+            int expectedLength = lastTestCase.getDescription().length();
+            int stepLength = lastTestCase.getTeststeps().get(0).length();
 
-    @Then("I edit test case with length value")
-    public void iEditTestCaseWithLengthValue() {
-        UseCasesModel body = Serenity.sessionVariableCalled(PREVIOUS_USE_CASE);
+            lastTestCase.setTitle("This field previously had " + titleLength + " characters");
+            lastTestCase.setDescription("This field previously had " + descriptionLength + " characters");
+            lastTestCase.setExpected_result("This field previously had " + expectedLength + " characters");
+            lastTestCase.setTeststeps(Collections.singletonList("This field previously had " + stepLength + " characters"));
 
-        int titleLength = body.getTitle().length();
-        int descriptionLength = body.getTitle().length();
-        int expectedLength = body.getDescription().length();
-        int stepLength = body.getTeststeps().get(0).length();
-
-        body.setTitle("This field previously had " + titleLength + " characters");
-        body.setDescription("This field previously had " + descriptionLength + " characters");
-        body.setExpected_result("This field previously had " + expectedLength + " characters");
-        body.setTeststeps(Collections.singletonList("This field previously had " + stepLength + " characters"));
-
-        editUseCase(body);
+            editUseCase(lastTestCase);
+        }
     }
 }

@@ -32,7 +32,7 @@ public class SandboxConnector {
 
     }
 
-    public int listUseCases(String token) {
+    public int listUseCases(String token, int list) {
         Response response = SerenityRest
                 .with()
                 .contentType(ContentType.JSON)
@@ -44,7 +44,7 @@ public class SandboxConnector {
 
         UseCasesModel[] id = new Gson().fromJson(response.body().asString(), UseCasesModel[].class);
 
-        return id[0].getUsecase_id();
+        return id[list].getUsecase_id();
     }
 
     public Response createUseCase(String token, UseCasesModel body) {
@@ -72,17 +72,17 @@ public class SandboxConnector {
         return response;
     }
 
-    public Response editUseCase(UseCasesModel body, String token, int useCase) {
-        Response response = SerenityRest
-                .with().log().all()
-                .contentType(ContentType.JSON)
-                .header("authorization", "Bearer " + token)
-                .baseUri(baseUrl)
-                .body(body)
-                .put("/api/usecases/usecase/" + useCase).prettyPeek();
+    public void editUseCase(UseCasesModel body, String token, int useCase) {
 
-        response.then().statusCode(200);
-        return response;
-    }
+            Response response = SerenityRest
+                    .with().log().all()
+                    .contentType(ContentType.JSON)
+                    .header("authorization", "Bearer " + token)
+                    .baseUri(baseUrl)
+                    .body(body)
+                    .put("/api/usecases/usecase/" + useCase).prettyPeek();
+
+            response.then().statusCode(200);
+        }
 
 }
