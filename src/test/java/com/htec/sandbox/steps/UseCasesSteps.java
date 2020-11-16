@@ -12,8 +12,8 @@ import static com.htec.sandbox.utils.SharedStateConstants.USE_CASE;
 
 public class UseCasesSteps extends BaseSteps {
 
-    @Given("I log in as Djakovic Bojan")
-    public void iLogInAsDjakovicBojan() {
+    @Given("I log in")
+    public void iLogIn() {
         loginAndGetToken();
     }
 
