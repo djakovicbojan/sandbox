@@ -22,13 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc399916-d972-4a7f-b485-09a628222590" name="Default Changelist" comment="Changed path to chromedriver">
+    <list default="true" id="dc399916-d972-4a7f-b485-09a628222590" name="Default Changelist" comment="Added deleteUseCases hook after every test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/connectors/SandboxConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/connectors/SandboxConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/utils/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/utils/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-API.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-API.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-GUI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-GUI.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605565364212</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added deleteUseCases hook after every test">
+      <created>1605569417831</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605569417831</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -348,7 +352,8 @@
     <MESSAGE value="Refactor GUI tests" />
     <MESSAGE value="Removed tags" />
     <MESSAGE value="Changed path to chromedriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed path to chromedriver" />
+    <MESSAGE value="Added deleteUseCases hook after every test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added deleteUseCases hook after every test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="355" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605542587637">

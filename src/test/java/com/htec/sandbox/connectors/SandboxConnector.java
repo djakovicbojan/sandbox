@@ -55,11 +55,8 @@ public class SandboxConnector {
 
         response.then().statusCode(200);
 
-
-
         return Arrays.asList(new Gson().fromJson(response.body().asString(), UseCasesModel[].class));
     }
-
 
     public void deleteUseCase(String token, int useCase) {
 
@@ -72,8 +69,6 @@ public class SandboxConnector {
 
         response.then().statusCode(200);
     }
-
-
 
     public Response createUseCase(String token, UseCasesModel body) {
         Response response = SerenityRest

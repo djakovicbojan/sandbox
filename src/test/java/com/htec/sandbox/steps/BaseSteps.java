@@ -74,8 +74,5 @@ public abstract class BaseSteps {
         sandboxConnector.editUseCase(body, Serenity.sessionVariableCalled(LOGIN_TOKEN),
                 Serenity.sessionVariableCalled(USE_CASE));
 
-
     }
-
-
 }
