@@ -1,23 +1,30 @@
 package com.htec.sandbox.core.ui.steps;
 
-import com.htec.sandbox.core.ui.pageObjects.LoginPage;
+import com.htec.sandbox.core.ui.pageObjects.LoginPagePO;
 
 import com.htec.sandbox.steps.BaseSteps;
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 
 public class LoginSteps extends BaseSteps {
 
-    LoginPage loginPage = new LoginPage();
+    LoginPagePO loginPagePO = new LoginPagePO();
 
     @Before
     public void setUp() {
         setup();
     }
 
-    @Given("User navigates to sandbox login page")
-    public void userNavigatesToSandboxLoginPage() {
+    @After
+    public void tearDown() {
+        teardown();
+    }
 
-        loginPage.navigateToLoginPage();
+    @Given("User is logged in")
+    public void userIsLoggedIn() {
+
+        loginPagePO.navigateToLoginPage();
+        loginPagePO.login();
     }
 }

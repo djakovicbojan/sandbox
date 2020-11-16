@@ -35,6 +35,10 @@ public abstract class BaseSteps {
         Driver.getInstance().setDriver();
     }
 
+    public void teardown() {
+        Driver.getInstance().closeDriver();
+    }
+
     public void loginAndGetToken() {
         sandboxConnector.login();
         Serenity.setSessionVariable(LOGIN_TOKEN).to(sandboxConnector.login());
