@@ -22,32 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc399916-d972-4a7f-b485-09a628222590" name="Default Changelist" comment="Added new dependencies for report">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_jira_plugin_1_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_5_0_b32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_5_0_b32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_5_0_b32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_5_0_b32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_5_0_b32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_25_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_25_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_25_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sandbox.iml" afterDir="false" />
+    <list default="true" id="dc399916-d972-4a7f-b485-09a628222590" name="Default Changelist" comment="Removed tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/LoginPagePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/LoginPagePO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/UseCasesPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/UseCasesPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/steps/LoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/steps/UseCaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/steps/UseCaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/runners/AllTestsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/runners/AllTestsRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/utils/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/utils/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-API.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-API.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-UI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-GUI.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +288,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605544003795</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Refactor GUI tests">
+      <created>1605546680729</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605546680729</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Removed tags">
+      <created>1605546855028</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605546855028</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -336,7 +330,9 @@
     <MESSAGE value="Started UI tests" />
     <MESSAGE value="Finished UI tests" />
     <MESSAGE value="Added new dependencies for report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new dependencies for report" />
+    <MESSAGE value="Refactor GUI tests" />
+    <MESSAGE value="Removed tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed tags" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="355" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605542587637">
@@ -359,22 +355,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1605469619584" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1605546470184">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1605546887633">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605546470184" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1605546470184">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605546887633" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1605546887633">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605546470184" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1605546470184">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605546887633" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1605546887632">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605546470184" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1605546470184">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605546887632" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1605546887633">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605546470184" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605546887633" />
     <state width="2517" height="488" key="GridCell.Tab.1.bottom" timestamp="1605543687298">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

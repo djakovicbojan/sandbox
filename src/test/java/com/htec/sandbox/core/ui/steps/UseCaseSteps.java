@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 public class UseCaseSteps extends BaseSteps {
 
     UseCasesPO useCasesPO = new UseCasesPO();
-
+    
     @When("User creates {int} new use cases")
     public void userCreatesNewUseCases(int useCasesNumber) {
 

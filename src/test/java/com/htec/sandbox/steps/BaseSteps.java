@@ -41,8 +41,6 @@ public abstract class BaseSteps {
 
     public WebDriver driver = Driver.getInstance().getDriver();
 
-    public WebDriverWait wait = new WebDriverWait(driver, 10);
-
     public void loginAndGetToken() {
         sandboxConnector.login();
         Serenity.setSessionVariable(LOGIN_TOKEN).to(sandboxConnector.login());

@@ -23,10 +23,12 @@ public class LoginPagePO extends BaseSteps {
 
 
     public void navigateToLoginPage() {
-        Driver.getInstance().getDriver().navigate().to(URL);
+        driver.navigate().to(URL);
     }
 
     public void login() {
+
+        WebDriverWait wait = new WebDriverWait(driver, 10);
 
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(loginButton)));
 
