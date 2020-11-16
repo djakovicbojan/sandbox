@@ -22,16 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc399916-d972-4a7f-b485-09a628222590" name="Default Changelist" comment="Started UI tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/LoginPagePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/UseCasesPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/steps/UseCaseSteps.java" afterDir="false" />
+    <list default="true" id="dc399916-d972-4a7f-b485-09a628222590" name="Default Changelist" comment="Finished UI tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/UseCases.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-UI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-UI.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,8 +182,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: Create new use cases and after that edit them with length of the previous one UI" />
-        <item itemvalue="Cucumber Java.Feature: create-and-edit-use-case-API" />
         <item itemvalue="Cucumber Java.Scenario: Create new use cases and after that edit them with length of the previous one API" />
+        <item itemvalue="Cucumber Java.Feature: create-and-edit-use-case-API" />
         <item itemvalue="JUnit.AllTestsRunner" />
         <item itemvalue="Cucumber Java.Feature: create-and-edit-use-case-UI" />
       </list>
@@ -269,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605473619985</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finished UI tests">
+      <created>1605525352832</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605525352832</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -295,7 +294,8 @@
     <MESSAGE value="Finished API test" />
     <MESSAGE value="Optimize imports and deleted comments" />
     <MESSAGE value="Started UI tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started UI tests" />
+    <MESSAGE value="Finished UI tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished UI tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="355" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605470555306">
@@ -318,22 +318,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1605469619584" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1605525225852">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1605525402550">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605525225852" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1605525225852">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605525402550" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1605525402550">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605525225852" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1605525225851">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605525402550" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1605525402549">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605525225851" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1605525225852">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605525402549" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1605525402550">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605525225852" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605525402550" />
     <state width="2517" height="488" key="GridCell.Tab.1.bottom" timestamp="1605523237167">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
