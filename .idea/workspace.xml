@@ -22,12 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc399916-d972-4a7f-b485-09a628222590" name="Default Changelist" comment="Removed tags">
+    <list default="true" id="dc399916-d972-4a7f-b485-09a628222590" name="Default Changelist" comment="Changed path to chromedriver">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/runners/AllTestsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/runners/AllTestsRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/UseCasesSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/UseCasesSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/connectors/SandboxConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/connectors/SandboxConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/utils/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/utils/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-API.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-API.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-GUI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-GUI.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605547131760</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Changed path to chromedriver">
+      <created>1605565364212</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605565364212</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -339,7 +347,8 @@
     <MESSAGE value="Added new dependencies for report" />
     <MESSAGE value="Refactor GUI tests" />
     <MESSAGE value="Removed tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed tags" />
+    <MESSAGE value="Changed path to chromedriver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed path to chromedriver" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="355" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605542587637">
@@ -362,22 +371,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1605469619584" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1605548661614">
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom" timestamp="1605569299464">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605548661614" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1605548661614">
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605569299464" />
+    <state width="2517" height="400" key="GridCell.Tab.0.center" timestamp="1605569299463">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605548661614" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1605548661614">
+    <state width="2517" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605569299463" />
+    <state width="2517" height="400" key="GridCell.Tab.0.left" timestamp="1605569299463">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605548661614" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1605548661614">
+    <state width="2517" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605569299463" />
+    <state width="2517" height="400" key="GridCell.Tab.0.right" timestamp="1605569299463">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605548661614" />
+    <state width="2517" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605569299463" />
     <state width="2517" height="488" key="GridCell.Tab.1.bottom" timestamp="1605543687298">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -402,10 +411,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="666" y="492" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605548249927" />
-    <state x="495" y="387" key="Vcs.Push.Dialog.v2" timestamp="1605547266279">
+    <state x="495" y="387" key="Vcs.Push.Dialog.v2" timestamp="1605565384100">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="495" y="387" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605547266279" />
+    <state x="495" y="387" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605565384100" />
     <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605543519391">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

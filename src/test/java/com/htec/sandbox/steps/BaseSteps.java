@@ -10,7 +10,6 @@ import net.thucydides.core.annotations.Steps;
 import org.jeasy.random.EasyRandom;
 import org.jeasy.random.EasyRandomParameters;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Random;
 
@@ -30,7 +29,6 @@ public abstract class BaseSteps {
             );
 
 
-
     public void setup() {
         Driver.getInstance().setDriver();
     }
@@ -48,18 +46,18 @@ public abstract class BaseSteps {
 
     public void createAUseCase(UseCasesModel body) {
 
-    Response response = sandboxConnector.createUseCase(
-            Serenity.sessionVariableCalled(LOGIN_TOKEN), body);
+        Response response = sandboxConnector.createUseCase(
+                Serenity.sessionVariableCalled(LOGIN_TOKEN), body);
 
-    UseCasesModel model = new Gson().fromJson(response.body().asString(), UseCasesModel.class);
+        UseCasesModel model = new Gson().fromJson(response.body().asString(), UseCasesModel.class);
 
-    Serenity.setSessionVariable(RESPONSE_BODY).to(model);
+        Serenity.setSessionVariable(RESPONSE_BODY).to(model);
     }
 
     public void getLatestUseCase(int list) {
 
-            Serenity.setSessionVariable(USE_CASE).to(
-                    sandboxConnector.listUseCases(Serenity.sessionVariableCalled(LOGIN_TOKEN), list));
+        Serenity.setSessionVariable(USE_CASE).to(
+                sandboxConnector.listUseCases(Serenity.sessionVariableCalled(LOGIN_TOKEN), list));
     }
 
     public UseCasesModel navigateToUseCase(int useCase) {
@@ -73,10 +71,11 @@ public abstract class BaseSteps {
 
     public void editUseCase(UseCasesModel body) {
 
-            sandboxConnector.editUseCase(body, Serenity.sessionVariableCalled(LOGIN_TOKEN),
-                    Serenity.sessionVariableCalled(USE_CASE));
+        sandboxConnector.editUseCase(body, Serenity.sessionVariableCalled(LOGIN_TOKEN),
+                Serenity.sessionVariableCalled(USE_CASE));
 
 
     }
+
 
 }

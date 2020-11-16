@@ -6,6 +6,9 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import net.serenitybdd.rest.SerenityRest;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class SandboxConnector {
 
     private String email = "djakovicbojan90@gmail.com";
@@ -41,6 +44,36 @@ public class SandboxConnector {
 
         return id[list].getUsecase_id();
     }
+
+    public List<UseCasesModel> listAllUseCases(String token) {
+        Response response = SerenityRest
+                .with()
+                .contentType(ContentType.JSON)
+                .header("authorization", "Bearer " + token)
+                .baseUri(baseUrl)
+                .get("/api/usecases/all").prettyPeek();
+
+        response.then().statusCode(200);
+
+
+
+        return Arrays.asList(new Gson().fromJson(response.body().asString(), UseCasesModel[].class));
+    }
+
+
+    public void deleteUseCase(String token, int useCase) {
+
+        Response response = SerenityRest
+                .with().log().all()
+                .contentType(ContentType.JSON)
+                .header("authorization", "Bearer " + token)
+                .baseUri(baseUrl)
+                .delete("/api/usecases/usecase/" + useCase).prettyPeek();
+
+        response.then().statusCode(200);
+    }
+
+
 
     public Response createUseCase(String token, UseCasesModel body) {
         Response response = SerenityRest

@@ -1,4 +1,4 @@
-@gui
+@gui @delete
 Feature: Create and edit test case GUI
 
   Scenario: Create new use cases and after that edit them with length of the previous one GUI
