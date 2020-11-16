@@ -1,4 +1,4 @@
-@createUseCase @api
+@api
 Feature: Create and edit test case API
 
   Scenario Outline: Create new use cases and after that edit them with length of the previous one API

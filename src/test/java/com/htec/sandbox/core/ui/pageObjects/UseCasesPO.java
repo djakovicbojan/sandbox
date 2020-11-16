@@ -24,9 +24,6 @@ public class UseCasesPO extends BaseSteps {
 
 
     public void navigateToUseCasePage() {
-        WebDriver driver = Driver.getInstance().getDriver();
-
-        WebDriverWait wait = new WebDriverWait(driver, 10);
 
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(useCases)));
         driver.findElement(By.xpath(useCases)).click();
@@ -34,9 +31,6 @@ public class UseCasesPO extends BaseSteps {
     }
 
     public void createUseCases() {
-        WebDriver driver = Driver.getInstance().getDriver();
-
-        WebDriverWait wait = new WebDriverWait(driver, 10);
 
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(createUseCaseButton)));
         driver.findElement(By.xpath(createUseCaseButton)).click();
@@ -54,10 +48,6 @@ public class UseCasesPO extends BaseSteps {
     public void editUseCases(int useCase) {
 
         String useCaseButton = "//*[@id=\"root\"]/div/div[2]/div/div/a[" + useCase + "]";
-
-        WebDriver driver = Driver.getInstance().getDriver();
-
-        WebDriverWait wait = new WebDriverWait(driver, 10);
 
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(useCaseButton)));
         driver.findElement(By.xpath(useCaseButton)).click();

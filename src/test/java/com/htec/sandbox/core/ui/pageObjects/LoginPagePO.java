@@ -27,9 +27,6 @@ public class LoginPagePO extends BaseSteps {
     }
 
     public void login() {
-        WebDriver driver = Driver.getInstance().getDriver();
-
-        WebDriverWait wait = new WebDriverWait(driver, 10);
 
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(loginButton)));
 

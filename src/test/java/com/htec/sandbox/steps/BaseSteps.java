@@ -10,7 +10,7 @@ import net.thucydides.core.annotations.Steps;
 import org.jeasy.random.EasyRandom;
 import org.jeasy.random.EasyRandomParameters;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Random;
 
@@ -38,6 +38,10 @@ public abstract class BaseSteps {
     public void teardown() {
         Driver.getInstance().closeDriver();
     }
+
+    public WebDriver driver = Driver.getInstance().getDriver();
+
+    public WebDriverWait wait = new WebDriverWait(driver, 10);
 
     public void loginAndGetToken() {
         sandboxConnector.login();
