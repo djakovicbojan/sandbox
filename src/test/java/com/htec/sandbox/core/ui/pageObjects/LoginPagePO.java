@@ -1,9 +1,7 @@
 package com.htec.sandbox.core.ui.pageObjects;
 
-import com.htec.sandbox.core.ui.Driver;
 import com.htec.sandbox.steps.BaseSteps;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 

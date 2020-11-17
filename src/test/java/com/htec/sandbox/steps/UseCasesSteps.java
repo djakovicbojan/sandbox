@@ -32,7 +32,6 @@ public class UseCasesSteps extends BaseSteps {
             createAUseCase(body);
 
         }
-
     }
 
     @Then("I edit {int} test case with length value")

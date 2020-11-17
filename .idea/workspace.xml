@@ -25,7 +25,10 @@
     <list default="true" id="dc399916-d972-4a7f-b485-09a628222590" name="Default Changelist" comment="Added deleteUseCases hook after every test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/connectors/SandboxConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/connectors/SandboxConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/LoginPagePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/LoginPagePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/UseCasesPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/core/ui/pageObjects/UseCasesPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/UseCasesSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/steps/UseCasesSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/utils/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htec/sandbox/utils/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../serenityguideline-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -87,25 +90,6 @@
       <module name="sandbox" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: create-and-edit-use-case-API" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: create-and-edit-use-case-UI" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-UI.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.htec.sandbox.core.ui.steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="sandbox" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: create-and-edit-use-case-UI" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -157,6 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/use-cases/create-and-edit-use-case-API.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.htec.sandbox.utils com.htec.sandbox.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="sandbox" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AllTestsRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sandbox" />
       <shortenClasspath name="NONE" />
@@ -178,18 +182,18 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Scenario: Create new use cases and after that edit them with length of the previous one UI" />
-      <item itemvalue="Cucumber Java.Feature: create-and-edit-use-case-UI" />
       <item itemvalue="Cucumber Java.Scenario: Create new use cases and after that edit them with length of the previous one API" />
       <item itemvalue="Cucumber Java.Feature: create-and-edit-use-case-API" />
       <item itemvalue="JUnit.AllTestsRunner" />
+      <item itemvalue="Cucumber Java.Scenario: " />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AllTestsRunner" />
+        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="Cucumber Java.Scenario: Create new use cases and after that edit them with length of the previous one API" />
         <item itemvalue="Cucumber Java.Scenario: Create new use cases and after that edit them with length of the previous one UI" />
         <item itemvalue="Cucumber Java.Feature: create-and-edit-use-case-API" />
-        <item itemvalue="Cucumber Java.Feature: create-and-edit-use-case-UI" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605569417831</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added deleteUseCases hook after every test">
+      <created>1605569524441</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605569524441</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -376,22 +387,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1605469619584" />
-    <state width="2517" height="400" key="GridCell.Tab.0.bottom" timestamp="1605569299464">
+    <state width="1236" height="402" key="GridCell.Tab.0.bottom" timestamp="1605633826224">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605569299464" />
-    <state width="2517" height="400" key="GridCell.Tab.0.center" timestamp="1605569299463">
+    <state width="1236" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605633826224" />
+    <state width="1236" height="402" key="GridCell.Tab.0.center" timestamp="1605633826224">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605569299463" />
-    <state width="2517" height="400" key="GridCell.Tab.0.left" timestamp="1605569299463">
+    <state width="1236" height="402" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605633826224" />
+    <state width="1236" height="402" key="GridCell.Tab.0.left" timestamp="1605633826224">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605569299463" />
-    <state width="2517" height="400" key="GridCell.Tab.0.right" timestamp="1605569299463">
+    <state width="1236" height="402" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605633826224" />
+    <state width="1236" height="402" key="GridCell.Tab.0.right" timestamp="1605633826224">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605569299463" />
+    <state width="1236" height="402" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605633826224" />
     <state width="2517" height="488" key="GridCell.Tab.1.bottom" timestamp="1605543687298">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -416,10 +427,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="666" y="492" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605548249927" />
-    <state x="495" y="387" key="Vcs.Push.Dialog.v2" timestamp="1605565384100">
+    <state x="495" y="387" key="Vcs.Push.Dialog.v2" timestamp="1605569530547">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="495" y="387" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605565384100" />
+    <state x="495" y="387" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605569530547" />
     <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605543519391">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

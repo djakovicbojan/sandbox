@@ -11,18 +11,14 @@ import java.util.List;
 
 public class SandboxConnector {
 
-    private String email = "djakovicbojan90@gmail.com";
-    private String password = "Bojan123!";
-
-    private String body = "{\"email\":\"djakovicbojan90@gmail.com\",\"password\":\"Bojan123!\"}";
-    private String baseUrl = "https://qa-sandbox.apps.htec.rs";
+    private final String baseUrl = "https://qa-sandbox.apps.htec.rs";
 
     public String login() {
         Response response = SerenityRest
                 .with()
                 .contentType(ContentType.JSON)
                 .baseUri(baseUrl)
-                .body(body)
+                .body("{\"email\":\"djakovicbojan90@gmail.com\",\"password\":\"Bojan123!\"}")
                 .post("/api/users/login");
 
         response.then().statusCode(200);
@@ -45,7 +41,7 @@ public class SandboxConnector {
         return id[list].getUsecase_id();
     }
 
-    public List<UseCasesModel> listAllUseCases(String token) {
+    public List<UseCasesModel> listAllUseCases(String token) throws Exception {
         Response response = SerenityRest
                 .with()
                 .contentType(ContentType.JSON)
@@ -53,9 +49,15 @@ public class SandboxConnector {
                 .baseUri(baseUrl)
                 .get("/api/usecases/all").prettyPeek();
 
-        response.then().statusCode(200);
+        if (response.statusCode() == 200) {
+            return Arrays.asList(new Gson().fromJson(response.body().asString(), UseCasesModel[].class));
 
-        return Arrays.asList(new Gson().fromJson(response.body().asString(), UseCasesModel[].class));
+        } else if (response.statusCode() == 204) {
+            throw new Exception("The list is empty. There are no use cases in the list");
+        }
+        else {throw new Exception("Something went wrong. Environment is not healthy");
+        }
+
     }
 
     public void deleteUseCase(String token, int useCase) {

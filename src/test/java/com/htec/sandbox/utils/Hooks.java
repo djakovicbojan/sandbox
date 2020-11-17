@@ -29,7 +29,7 @@ public class Hooks extends BaseSteps {
     }
 
     @After("@delete")
-    public void deleteUseCases() {
+    public void deleteUseCases() throws Exception {
 
         loginAndGetToken();
 
