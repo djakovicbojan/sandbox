@@ -29,3 +29,7 @@ Or you can just run **mvn serenity:aggregate**
 
 Report looks like this:  
 ![alt text](https://imagizer.imageshack.com/img922/7125/zPLdjm.png)
+
+
+***Important note***  
+**If you are using MacOS, you will need to point webdriver path to mac one. You will need to change path in Driver.java class located in src/test/java/com/htec/sandbox/utils. Change the path on Line:27 from src/test/resources/webdriver/windows/chromedriver.exe to src/test/resources/webdriver/mac/chromedriver**
